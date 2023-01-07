@@ -18,10 +18,7 @@ public final class WincentPlugin extends JavaPlugin {
 
         saveDefaultConfig();
 
-        getCommand("widownia").setExecutor(new WidowniaCommand());
-        getCommand("setwidownia").setExecutor(new SetWidowniaCommand());
-        getCommand("boxy").setExecutor(new BoxyCommand());
-        getCommand("setboxy").setExecutor(new SetBoxyCommand());
+        getCommand("pd").setExecutor(new ChatLisener());
 
     }
 

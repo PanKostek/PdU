@@ -1,14 +1,8 @@
-name: WincentPlugin
+name: PoszukiwaczeDiamentow
 version: '${project.version}'
 main: me.mimi.wincentplugin.WincentPlugin
 api-version: 1.18
 authors: [ mimiwester ]
 commands:
-  widownia:
-    description: Teleportuje na widownie.
-  setwidownia:
-    description: Ustawia widownie na świecie.
-  boxy:
-    description: Teleportuje na boxy.
-  setboxy:
-    description: Ustawia boxy na świecie.
+  pd:
+    description: Basic command to plugins.
